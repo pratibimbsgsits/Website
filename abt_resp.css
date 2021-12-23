@@ -44,7 +44,10 @@
     margin-left: 3.5rem;
     margin-right: 3.5rem;
   }
-  
+  .fa-angle-right{
+  margin-top: -15rem;
+    margin-left: -1rem;
+  }
   }
   
   @media screen and (max-width: 1000px){
@@ -84,14 +87,18 @@
       font-size: 1.2rem;
     }
     .fa-angle-right {
-      margin-top: -17rem;
+      margin-top: -20rem;
+      margin-left: -1rem;
+    }
+    .fa-angle-left {
+      margin-top: -23.2rem;
       margin-left: -1rem;
     }
   }
   @media only screen and (max-width: 960px) {
     .fa-angle-left {
-      margin-top:  -28rem;
-      margin-right: 2rem;
+      margin-top:  -22rem;
+      margin-right: -2rem;
     }
   }
   @media screen and (max-width: 640px){
@@ -113,6 +120,9 @@
   }
   .fa-angle-left {
     margin-top:  -27rem;
+  }
+  .fa-angle-right {
+    margin-top: -25.4rem;
   }
   
   }
@@ -136,10 +146,13 @@
     margin-right: 2.5rem;
   }
   .fa-angle-left {
-    margin-top:  -25rem;
+    margin-top:  -25.8rem;
     margin-left: 1rem;
   }
-  
+  .fa-angle-right {
+    margin-top:  -25rem;
+    margin-right: 1rem;
+  }
   }
   @media screen and (max-width: 410px){
     .story p,.desc p{
@@ -155,10 +168,10 @@
       font-size: 1.2rem;
     }
     .fa-angle-left {
-      margin-top:  -31rem;
+      margin-top:  -24.5rem;
     }
     .fa-angle-right {
-      margin-top:  -24rem;
+      margin-top:  -24.3rem;
     }
     .carousel{
       padding-left: 32px;
@@ -171,11 +184,12 @@
   padding-right: 40px
     }
     .fa-angle-left {
-      margin-top:  -30rem;
-      margin-right: -0.8rem;
+      margin-top: -27rem;
+    margin-right: -1.2rem
     }
     .fa-angle-right {
-      margin-left: -1.2rem;
+      margin-top: -26.5rem;
+    margin-left: -2.5rem;
     }
   }
   @media screen and (max-width: 315px){
@@ -194,8 +208,10 @@
        font-size: 1.5rem;
     }
     .fa-angle-left {
-      margin-top:  -31rem;
+      margin-top:  -25rem;
+    }
+    .fa-angle-right {
+      margin-top:  -25rem;
     }
     
   }
-  
