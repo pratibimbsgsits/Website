@@ -135,7 +135,7 @@
        font-size: 1.5rem;
   }
   .story{
-    height:450px;
+    height:auto;
   }
   .story p {
     margin-left: 2.5rem;
@@ -193,9 +193,9 @@
     }
   }
   @media screen and (max-width: 315px){
-    .story{
+/*     .story{
       height:32rem;
-    }
+    } */
     .carousel {
       height: 550px;
       padding-left: 35px;
