@@ -42,7 +42,7 @@ function submitForm(e){
 
    //   remove the alert
    setTimeout(() => {
-    document.querySelector(".alert").style.display = "none";
+    document.querySelector(".alert1").style.display = "none";
    }, 3000);
   //   reset the form
   document.getElementById("membershipForm").reset();
