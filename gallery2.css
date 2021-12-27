@@ -1,0 +1,292 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.item{
+    background-color: rgba(153, 148, 148, 0.39);
+    height: 344px;
+    width: 344px;
+
+}
+.upper{
+    background-color: black;
+    height:120px;
+    width:344px;
+}
+div .item:nth-of-type(4n+2){
+    background-color: rgb(20 19 19 / 58%);
+}
+div .item:nth-of-type(4n+3){
+    background-color: rgb(20 19 19 / 58%);
+}    
+.a1{
+   background-image: url('archive_img/87695402_1972449069556868_2376601707713991304_n.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+
+}
+.a2{
+  
+}
+.a3{
+   background-image: url('archive_img/pratibimb_holi-03.png'); 
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a4{
+   background-image: url('archive_img/IMG_3933.png');
+    background-size: 250px 250px;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a5{
+   background-image: url('archive_img/92414060_2854886507934752_8998102310634465496_n.png'); background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a6{
+   background-image: url('archive_img/46979830_475071143020861_9077545227701431680_n.png'); background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+
+.a7{
+   background-image: url('archive_img/hhtdf 1.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a8{
+   background-image: url('archive_img/IMG_20210604_005416.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a9{
+   background-image: url('archive_img/IMG_4140.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a10{
+   background-image: url('archive_img/IMG_20200314_104626.png');
+   background-size: 250px 250px;
+   background-repeat: no-repeat;
+   background-position:center;
+  
+}
+.a11{
+   background-image: url('archive_img/');
+   background-size: 250px 250px;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a12{
+   background-image: url('archive_img/IMG_20210530_053005 1.png');
+   background-size: 250px 250px;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a13{
+   background-image: url('archive_img/djr 1.png');
+   background-size: 250px 250px;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a14{
+   background-image: url('archive_img/IMG_4054.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a15{
+   background-image: url('archive_img/DSC_0017 - Copy 1.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a16{
+   background-image: url('archive_img/IMG_3975 (1)-02.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a17{
+   background-image: url('archive_img/study1 1.png');
+   background-size: 250px 250px;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a18{
+   background-image: url('archive_img/IMG_4027.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a19{
+   background-image: url('archive_img/20140906-0005.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a20{
+   background-image: url('archive_img/Image03.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a21{
+   background-image: url('archive_img/IMG_20210325_085432__01.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a22{
+   background-image: url('archive_img/IMG_20201005_220250.png');
+   background-size:250px 250px;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a23{
+   background-image: url('archive_img/IMG_20210519_181514__01__01.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a24{
+   background-image: url('archive_img/IMG_20210604_005336.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a25{
+ 
+}
+.a26{
+   background-image: url('archive_img/IMG_20200908_180610.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a27{
+   background-image: url('archive_img/IMG_20210124_135903_Bokeh (1).png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a28{
+   background-image: url('archive_img/118914955_952512048575118_6164239883251802541_n.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a29{
+   background-image: url('archive_img/160624691_905238550296199_3414633512764516587_n.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a30{
+   background-image: url('archive_img/IMG_4402.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a31{
+   background-image: url('archive_img/IMG_4489.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a32{
+   background-image: url('archive_img/ghiblystudy1.png');
+   background-size: 250px 250px;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a33{
+   background-image: url('archive_img/IMG_4368.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a34{
+   
+}
+.a35{
+   background-image: url('archive_img/dasdaf 1.png');
+   background-size: 250px 250px;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a36{
+   background-image: url('archive_img/IMG_20201111_134846-06-01-01.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a37{
+   background-image: url('a182 b" src="archive_img/IMG_20200314_104626.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.a38{
+   background-image: url('archive_img/IMG_3792\ \(3\).png');
+   background-size: 250px 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+
+@media screen and (max-width:772px)
+{
+   .container{
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+   }
+
+   .upper{
+      background-color: black;
+      height:60px;
+      width:344px;
+  }
+
+  div .item:nth-of-type(2n){
+   background-color: rgb(20 19 19 / 58%);
+  }
+  div .item:nth-of-type(2n+1){
+   background-color: rgba(153, 148, 148, 0.39);
+
+  }
+
+  .a2{
+   background-image: url('archive_img/IMG_20201111_134846-06-01-01.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+     }
+
+  .a25{
+   background-image: url('archive_img/IMG_4054.png');
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+      }
+
+.a34{
+   background-image: url('archive_img/pratibimb_holi-03.png'); 
+   background-size: 250px ;
+   background-repeat: no-repeat;
+   background-position:center;
+    }
+ 
+}
