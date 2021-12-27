@@ -73,35 +73,43 @@
         <div class="flex-item-left">
             <h2 class="form-heading">For Collaboration.</h2>
             <p class="form-para">We’d love to collaborate with you.</p>
-            <form style="margin-top:3rem;">
+            <form style="margin-top:3rem;" id="collaborationForm" autocomplete="off">
+              <div class="alert1" style=" width: 100%;
+              background-color: #B91900;
+              color: #fff;
+              height: 4vh;
+              text-align: center;
+              padding: 2px 2px;
+              margin-bottom: 15px;
+              display: none;">Details received!</div>
                 <div class="form-group row form-inp">
                   <label for="inputEmail3" class="col-sm-2 col-form-label">Entity Name</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control " id="inputEmail3">
+                    <input type="text" class="form-control " id="entityName" required>
                   </div>
                 </div>
                 <div class="form-group row form-inp">
                   <label for="inputEmail3" class="col-sm-2 col-form-label">Contact Number</label>
                   <div class="col-sm-10">
-                    <input type="tel" class="form-control" id="inputEmail3">
+                    <input type="tel" class="form-control" id="contact" required>
                   </div>
                 </div>
                 <div class="form-group row form-inp">
                   <label for="inputEmail3" class="col-sm-2 col-form-label">E-mail</label>
                   <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3">
+                    <input type="email" class="form-control" id="email" required>
                   </div>
                 </div>
                 <div class="form-group row form-inp">
                   <label for="inputAgenda3" class="col-sm-2 col-form-label">Your Expectations</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control " id="inputAgenda3">
+                    <input type="text" class="form-control " id="expectations" required>
                   </div>
                 </div>
                 
                 <div class="form-group row form-inp">
                   <div class="col-sm-10">
-                    <input type="submit" class="formSubmit" name="Submit">
+                    <input type="submit" class="formSubmit" name="Submit" id="submit">
                   </div>
                 </div>
               </form>
@@ -114,42 +122,50 @@
         <div class="flex-item-left">
             <h2 class="form-heading">For Sponsorship.</h2>
             <p class="form-para">We’d love to have you as our sponsor.</p>
-            <form style="margin-top:2rem;">
+            <form style="margin-top:2rem;" id="sponsorshipForm" autocomplete="off">
+              <div class="alert2" style=" width: 100%;
+              background-color: #B91900;
+              color: #fff;
+              height: 5vh;
+              text-align: center;
+              padding: 2px 2px;
+              margin-bottom: 15px;
+              display: none;">Details received!</div>
                 <div class="form-group row form-inp">
                   <label for="inputEmail3" class="col-sm-2 col-form-label">Business Name</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control " id="inputEmail3">
+                    <input type="text" class="form-control " id="businessName" required>
                   </div>
                 </div>
                 <div class="form-group row form-inp">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Contact Name</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control " id="inputEmail3">
+                      <input type="text" class="form-control " id="contactName" required>
                     </div>
                   </div>
                   
                 <div class="form-group row form-inp">
                   <label for="inputEmail3" class="col-sm-2 col-form-label">Contact Number</label>
                   <div class="col-sm-10">
-                    <input type="tel" class="form-control" id="inputEmail3">
+                    <input type="tel" class="form-control" id="contactNumber" required>
                   </div>
                 </div>
                 <div class="form-group row form-inp">
                   <label for="inputEmail3" class="col-sm-2 col-form-label">E-mail</label>
                   <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3">
+                    <input type="email" class="form-control" id="email1" required>
                   </div>
                 </div>
                 <div class="form-group row form-inp">
                   <label for="inputAgenda3" class="col-sm-2 col-form-label">Category</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control " id="inputAgenda3">
+                    <input type="text" class="form-control " id="category" required>
                   </div>
                 </div>
                 
                 <div class="form-group row form-inp">
                   <div class="col-sm-10">
-                    <input type="submit" class="formSubmit" name="Submit">
+                    <input type="submit" class="formSubmit" name="Submit" id="submit" required>
                   </div>
                 </div>
               </form>
@@ -197,7 +213,9 @@
     </div>
 
     </div>
-
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="db/collaboration.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
