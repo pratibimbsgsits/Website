@@ -1,4 +1,8 @@
-html,body{
+
+  * {
+    box-sizing: border-box;
+  }
+  html,body{
     font-family: poppins,sans-serif;
     margin:0;
     padding:0;
@@ -7,281 +11,141 @@ html,body{
       height: 100%;
   }
 
-.event_contents{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    /* min-height: 100vh; */
-    font-family: 'Poppins', sans-serif;
-    color: #fefefa;
-    /* background-color: #333333; */
+  .col {
+    float: left;
+    height: 600px;
   }
   
-  .event_container {
-    /* display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; */
-    /* min-height: 100vh; */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: #fefefa;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    /* max-width: 960px; */
-    margin-left: auto;
-    margin-right: auto;
-    /* padding-left: 20px; */
-    /* padding-right: 20px; */
+  .col{
+    font-weight: 600;
   }
-  .cards {
-    display: grid;
-    justify-content: center;
-    grid-gap: 60px;
-    padding: 30px;
-    list-style: none;
-  }
-  
-  /* .item1 {
-    grid-row-start: 2;
-  } */
-  
-  .cards__item {
-    height: 400px;
-  }
-  
-  .card {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #ffffff;
-  }
-  
-  .card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 20;
+ 
+  .eve-right{
     width: 50%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.1);
-    pointer-events: none;
+    padding:8% 9% 5% 8%;
   }
-  
-  .a1{
-    background-image: url(img/WhatsApp\ Image\ 2021-04-07\ at\ 9.15.51\ PM.jpeg);
-    background-size: 100% 100%;
-  }
-  .a2{
-    background-image: url(img/89069128_863250980814368_1061437620255162424_n\ 2.png);
-    background-size:100% 100%;
-  }
-  
-  .a3{
-    background-image: url(img/66178697_922401408097690_5786587258798000397_n\ 1.png);
-    background-size:100% 100%;
-  }
-  .a4{
-    background-image: url('img/28154674_2014453665480012_1463851706335887360_n\ 1.png');
-    background-size: 100% 100%;
-  }
-  .a5{
-    background-image: url('img/WhatsApp\ Image\ 2021-06-03\ at\ 6.08.51\ PM\ \(1\).jpeg');
-    background-size: 100% 100%;
-  
-  }
-  .a6{
-    background-image: url('img/DSC_5904.JPG');
-    background-size: 100% 100%;
-  }
-  .a7{
-    background-image: url('img/22351816_1368316419957646_4765790737793024000_n_auto_x2\ 1.png');
-    background-size: 100% 100%;
-  }
-  .a10{
-    background-image: url(img/IMG_20190827_164821\ 1.png);
-    background-size:100% 100%;
-  }
-  .a9{
-    background-image: url('img/WhatsApp\ Image\ 2021-06-03\ at\ 6.04.28\ PM\ \(1\).jpeg');
-    background-size: 100% 100%;
-  }
-  .a13{
-    background-image: url('img/PSX_20200412_201520-01.jpeg');
+ 
+  .eve-left {
+    width: 50%;
+    background: url(img/89069128_863250980814368_1061437620255162424_n\ 2.png);
     background-size: 100% 100%;
   }
   
-  .card__frame {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
+  .eve-left img{
+    width:100%;
+    height:466px;
+  }
+   .eve-right{
+     background-color: #FFFFFF;
+   }
+ .heading{
+  font-family: Ralway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33.9px;
+  color: #000000;
+ }
+ .para{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+ }
+ .dates{
+  font-family:'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #000000;
+ }
+ .heading1{
+  font-family: Ralway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  color: #FFFFFF;
+ }
+ .para1{
+  font-family:'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+ }
+ .dates1{
+  font-family:'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #FFFFFF;
+ }
+
+ .eve-left1{
+  width: 50%;
+  padding:5% 9% 5% 5%;
+  background-color: #242424;
+}
+
+.eve-right1 {
+  width: 50%;
+  background: url(img/DSC_5904.JPG);
+  background-size: 100% 100%;
+}
+.eve-right2 {
+  width: 50%;
+  background: url(img/66178697_922401408097690_5786587258798000397_n\ 1.png);
+  background-size: 100% 100%;
+}
+.eve-right3{
+  width: 50%;
+  background: url(img/WhatsApp\ Image\ 2021-06-03\ at\ 6.08.51\ PM\ \(1\).jpeg);
+  background-size: 100% 100%;
+}
+.eve-right4{
+  width: 50%;
+  background: url(img/PSX_20200412_201520-01.jpeg);
+  background-size: 100% 100%;
+}
+.eve-left2{
+  width: 50%;
+    background: url(img/IMG_20190827_164821\ 1.png);
+    background-size: 100% 100%;
+}
+
+.eve-left3{
+  width: 50%;
+    background: url(img/28154674_2014453665480012_1463851706335887360_n\ 1.png);
+    background-size: 100% 100%;
+}
+.eve-left4{
+  width: 50%;
+    background: url(img/WhatsApp\ Image\ 2021-04-07\ at\ 9.15.51\ PM.jpeg);
+    background-size: 100% 100%;
+}
+.eve-left5{
+  width: 50%;
+    background: url(img/WhatsApp\ Image\ 2021-06-03\ at\ 6.04.28\ PM\ \(1\).jpeg);
+    background-size: 100% 100%;
+}
+.eve-right1 img{
+  width:100%;
+  height:466px;
+}
+@media only screen and (max-width: 540px){
+  .eve-row{
+      padding-left:0;
+      padding-top: 0;
+      text-align: center;
+      margin-bottom: 1rem;
+      margin-right:0;
+  }
+  .col{
+      width:100%;
+      height:480px;
+  }
+  .graf{
+    height:525px;
   }
   
-  .card__picture {
-    margin-bottom: 12px;
-    -webkit-filter: invert(1);
-            filter: invert(1);
   }
-  
-  .card__picture img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .card__title {
-    margin: 0;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-  
-  .card__overlay {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 52px;
-    height: 52px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    cursor: pointer;
-  }
-  
-  .card__overlay::before {
-    content: "Read";
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-  }
-  
-  .card__overlay:hover, .card__overlay:focus {
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    border-radius: 0;
-    opacity: 0.9;
-  }
-  
-  .card__overlay:hover::before, .card__overlay:focus::before {
-    content: none;
-  }
-  
-  .card:nth-child(1) .card__overlay {
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
-  }
-  
-  .card:nth-child(2) .card__overlay {
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
-  }
-  
-  .card:nth-child(3) .card__overlay {
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
-  }
-  .card:nth-child(4) .card__overlay {
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
-  }
-  
-  
-  .card__content {
-    z-index: 1;
-    padding: 20px;
-    line-height: 1.4;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    pointer-events: none;
-    -webkit-transition: 0s;
-    transition: 0s;
-  }
-  
-  .card__overlay:hover ~ .card__content {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transition: 0.2s 0.3s;
-    transition: 0.2s 0.3s;
-  }
-  
-  .card__content h2 {
-    margin: 0;
-    margin-bottom: 16px;
-  }
-  /*# sourceMappingURL=a.css.map */
-  @media only screen and (max-width: 1140px) {
-    .event_container  {
-      grid-template-columns: 1fr 1fr 1fr;}}
-  
-  @media only screen and (max-width: 740px) {
-    .event_container  {
-      grid-template-columns: 1fr 1fr;}
-    .cards{
-        grid-gap: unset;
-        margin: unset;
-      }}
-  
-  @media only screen and (max-width: 540px) {
-    .event_container  {
-      grid-template-columns: 1fr;}
-      .cards{
-        grid-gap: unset;
-        padding: unset;
-/*         padding-right: 10px; */
-      }
-      }
