@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1024px)
+{
+  .event-button{
+    display:none;
+  }
+}
 @media only screen and (max-width: 960px) {
     .column1,.column,.column2,.column4,.column3{
       width: 100%;
@@ -106,7 +112,7 @@
   }
   @media only screen and (max-width: 400px){ 
   .header-image{
-    background:url(img/mobile_cover.jpg) ;
+    /* background:url(img/mobile_cover.jpg) ; */
     background-size: 100% 100%;
     height: 82vh;
   }}

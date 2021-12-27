@@ -107,7 +107,7 @@ html,body{
   height:600px;
 }
 .header-image{
-  background:url(img/cover_pratibimbweb.png) ;
+  background:url(img/Kalopsia.png) ;
   background-size: 100% 100%;
   height: 85vh;
 }
@@ -685,7 +685,7 @@ color: #1FE0BD;
   position:absolute;
   top: 460px;
   z-index:2;
-  right: 140px;
+  right:217px;
 }
 
 .meraki-mobile,.event-mobile{
