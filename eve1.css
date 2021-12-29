@@ -1,71 +1,151 @@
-*{
-    margin: 0;
-    padding: 0;
+
+  * {
     box-sizing: border-box;
-}
-
-.video_container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.video_container .video{
-    height: 25rem;
-    width: 20rem;
-    margin: 2rem ;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-    border-radius: 14px;
-}
-
-.video_container .video video{
-    height: 100%;
+  }
+  html,body{
+    font-family: poppins,sans-serif;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
     width: 100%;
-    object-fit: cover;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
+      height: 100%;
+  }
+
+  .col {
+    float: left;
+    height: 600px;
+  }
+  
+  .col{
+    font-weight: 600;
+  }
+ 
+  .eve-right{
+    width: 50%;
+    padding:8% 9% 5% 8%;
+  }
+ 
+  .eve-left {
+    width: 50%;
+    background: url(img/89069128_863250980814368_1061437620255162424_n\ 2.png);
+    background-size: 100% 100%;
+  }
+  
+  .eve-left img{
+    width:100%;
+    height:466px;
+  }
+   .eve-right{
+     background-color: #FFFFFF;
+   }
+ .heading{
+  font-family: Ralway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33.9px;
+  color: #000000;
+ }
+ .para{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+ }
+ .dates{
+  font-family:'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #000000;
+ }
+ .heading1{
+  font-family: Ralway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  color: #FFFFFF;
+ }
+ .para1{
+  font-family:'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+ }
+ .dates1{
+  font-family:'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #FFFFFF;
+ }
+
+ .eve-left1{
+  width: 50%;
+  padding:5% 9% 5% 5%;
+  background-color: #242424;
 }
-/* .video_container .video .active{
-    position: fixed;
-    top: 50%;left: 50%;
-    transform: translate(-50%,-50%);
-    height: auto;
-    width: 40%;
-    box-shadow: 0 0 0 100vh rgba(0,0,0,0.7);
-    z-index: 1;
-} */
 
-/* .video_container .video .active:hover{
-    transition: none;
-    transform:translate(-50%,-50%) scale(1) ;
-} */
-
-
-.video_container .video video:hover{
-    transition: .2s linear;
-    transform: scale(1.2);
+.eve-right1 {
+  width: 50%;
+  background: url(img/DSC_5904.JPG);
+  background-size: 100% 100%;
+}
+.eve-right2 {
+  width: 50%;
+  background: url(img/66178697_922401408097690_5786587258798000397_n\ 1.png);
+  background-size: 100% 100%;
+}
+.eve-right3{
+  width: 50%;
+  background: url(img/WhatsApp\ Image\ 2021-06-03\ at\ 6.08.51\ PM\ \(1\).jpeg);
+  background-size: 100% 100%;
+}
+.eve-right4{
+  width: 50%;
+  background: url(img/PSX_20200412_201520-01.jpeg);
+  background-size: 100% 100%;
+}
+.eve-left2{
+  width: 50%;
+    background: url(img/IMG_20190827_164821\ 1.png);
+    background-size: 100% 100%;
 }
 
-
-
-@media screen and (max-width: 760px){
-    .video_container .video .active{
-        /* width: 55%; */
-    }
+.eve-left3{
+  width: 50%;
+    background: url(img/28154674_2014453665480012_1463851706335887360_n\ 1.png);
+    background-size: 100% 100%;
 }
-@media screen and (max-width: 640px){
-    .video_container .video .active{
-        /* width: 60%; */
-    }
-    .video_container .video video:hover{
-        transition: none;
-        transform: scale(1);
-    }
+.eve-left4{
+  width: 50%;
+    background: url(img/WhatsApp\ Image\ 2021-04-07\ at\ 9.15.51\ PM.jpeg);
+    background-size: 100% 100%;
 }
-@media screen and (max-width: 500px){
-    .video_container .video .active{
-        /* width: 80%; */
-    }
+.eve-left5{
+  width: 50%;
+    background: url(img/WhatsApp\ Image\ 2021-06-03\ at\ 6.04.28\ PM\ \(1\).jpeg);
+    background-size: 100% 100%;
 }
+.eve-right1 img{
+  width:100%;
+  height:466px;
+}
+@media only screen and (max-width: 540px){
+  .eve-row{
+      padding-left:0;
+      padding-top: 0;
+      text-align: center;
+      margin-bottom: 1rem;
+      margin-right:0;
+  }
+  .col{
+      width:100%;
+      height:480px;
+  }
+  .graf{
+    height:525px;
+  }
+  
+  }
