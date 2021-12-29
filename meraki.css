@@ -43,6 +43,7 @@ margin-top:30px;
 .teaser video{
     height: 420px;
     margin-left: 50vw;
+    margin-bottom: 40px;
     transform: translate(-50%,5%); 
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
     /* background-image: url("img/mask1"); */
