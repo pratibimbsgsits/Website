@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 .meraki_image{
-    background-image: url(img/Group\ 10.png);
-    background-size: 100% 100%;
-    height: 615px;
+    width: 100%;
+    /* height: 700px; */
+    padding: 2em 2em;
 }
 .meraki_image, .meraki_content{
     width: 50%;
@@ -34,7 +34,7 @@ margin-top:30px;
 }
 .teaser{
     height: 550px;
-    background: #36454F;
+    
 }
 .teaser h2{
     padding-top: 40px;
@@ -45,6 +45,7 @@ margin-top:30px;
     margin-left: 50vw;
     transform: translate(-50%,5%); 
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
+    /* background-image: url("img/mask1"); */
 }
 .participate{
     display: flex;
@@ -61,12 +62,21 @@ margin-top:30px;
     padding-left: 80px;
     /* padding-right: 25px; */
 }
+.kalopsia_samples{
+    text-align: center;
+    column-gap: 4rem;
+}
+.kalopsia_samples img{
+    padding: 2rem;
+}
 .rules1, .rules2{
     width: 50%;
     height: 600px;
     padding-left: 2rem;
     padding-right: 2rem;
-    /* background-image: url(img/rules\ merakiBG-01.png); */
+    background-image: url(img/mask4.png);
+    background-repeat:no-repeat;
+    background-position: center;    
 }
 .rules1{
     color:#ffffff;
@@ -83,6 +93,26 @@ margin-top:30px;
 }
 .rules2 li{
     margin-left: 15px;
+}
+
+.registor img{
+    margin:auto;
+    /* padding-left: 515px; */
+}
+
+.spon{
+   color: rgb(76 70 70 / 77%);
+    padding-top: 42px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+}
+
+.text{
+    color: rgba(0, 0, 0, 0.53);
+}
+.text2{
+    color: rgba(0, 0, 0, 0.53);
 }
 @media screen and (max-width: 1000px){
     .meraki_image, .meraki_content{
@@ -104,6 +134,15 @@ margin-top:30px;
     #rules{
         display:none;
     }
+    .registor img{
+        margin:auto;
+        /* padding-left: 338px; */
+    }
+    .meraki_image{
+        width: 50%;
+        /* height: 700px; */
+        padding: 2em 2em;
+    }
 }
 @media screen and (max-width: 640px){
     .part_img{
@@ -117,9 +156,13 @@ margin-top:30px;
     .teaser video{
         height: 250px;}
         .rules1, .rules2{
-            height: 650px;}
+            height: auto;}
     .meraki_content{
         height:750px;
+    }
+    .registor img{
+        margin:auto;
+        /* padding-left: 156px; */
     }
 }
 @media screen and (max-width: 500px){
@@ -128,7 +171,7 @@ margin-top:30px;
         .teaser{
             height: 320px;}
             .rules1, .rules2{
-                height: 700px;}
+                /* height: 700px;} */}
         .meraki_content{
             height:625px;}
             .meraki_content{
@@ -138,10 +181,18 @@ margin-top:30px;
             .meraki_image{
                 height: 515px;
             }
+            .registor img{
+                margin:auto;
+             
+            }
+            .kalopsia_samples img{
+                width: 80%;
+            }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 410px){
 .teaser video{
-    height: 160px;}
+    height: 160px;
+padding: 0.5em;}
     .teaser{
         height: 300px;}
         .part_img{
@@ -151,18 +202,21 @@ margin-top:30px;
             height: 80px;
         }
     .rules1, .rules2{
-            height: 800px;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;}
+            height: auto;
+            padding-left: 1rem;
+            padding-right: 1rem;}
+        }
+        .registor img{
+            margin:auto;
+            padding-left: 40px;
+        }
+        .meraki_content{
+            /* font-size: small;
+            height: 00px; */
         }
         @media screen and (max-width: 400px){
             .meraki_content{
                 height:750px;
             }
-                .rules1, .rules2{
-                        height: 850px;
-                        padding-left: 1.5rem;
-                        padding-right: 1.5rem;}
-                    }
-            
-
+    
+                }
