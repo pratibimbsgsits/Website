@@ -62,12 +62,13 @@ var paymentOption =Array.from(document.getElementsByClassName("paymentOption")).
    saveMessages(name, contact,whatsappNumber,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,wsAttending,offlinePayment,onlinePayment,paymentOption);
 
 //   //   enable alert
-  document.querySelector(".alert1").style.display = "block";
+//   document.querySelector(".alert1").style.display = "block";
 
    //   remove the alert
-   setTimeout(() => {
-    document.querySelector(".alert1").style.display = "none";
-   }, 3000);
+//    setTimeout(() => {
+//     document.querySelector(".alert1").style.display = "none";
+//    }, 3000);
+ alert("You have successfully registered for Kalopsia!");
 //   //   reset the form
 document.getElementById("Registration-Kalopsia").reset();
 
