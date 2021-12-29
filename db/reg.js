@@ -127,7 +127,7 @@ function uploadImage() {
     .then(snapshot => snapshot.ref.getDownloadURL())
     .then(url => {
       // console.log(url);
-      alert("uploaded");
+      alert("Image uploaded");
       // document.querySelector("#image").src = url;
     })
     .catch(console.error);
@@ -144,7 +144,7 @@ function uploadImage2() {
     .then(snapshot => snapshot.ref.getDownloadURL())
     .then(url => {
       // console.log(url);
-      alert("uploaded");
+      alert("Image uploaded");
       // document.querySelector("#image").src = url;
     })
     .catch(console.error);
