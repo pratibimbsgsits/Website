@@ -58,16 +58,16 @@ var paymentOption =Array.from(document.getElementsByClassName("paymentOption")).
 
 
 
-console.log(name, contact,whatsappNumber,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,wsAttending,offlinePayment,onlinePayment,paymentOption);
+//console.log(name, contact,whatsappNumber,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,wsAttending,offlinePayment,onlinePayment,paymentOption);
    saveMessages(name, contact,whatsappNumber,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,wsAttending,offlinePayment,onlinePayment,paymentOption);
 
 //   //   enable alert
-//   document.querySelector(".alert1").style.display = "block";
+  document.querySelector(".alert1").style.display = "block";
 
-//    //   remove the alert
-//    setTimeout(() => {
-//     document.querySelector(".alert1").style.display = "none";
-//    }, 3000);
+   //   remove the alert
+   setTimeout(() => {
+    document.querySelector(".alert1").style.display = "none";
+   }, 3000);
 //   //   reset the form
 document.getElementById("Registration-Kalopsia").reset();
 
@@ -107,7 +107,8 @@ function uploadImage1() {
   task
     .then(snapshot => snapshot.ref.getDownloadURL())
     .then(url => {
-      console.log(url);alert("uploaded");
+      // console.log(url);
+      alert("uploaded");
       // document.querySelector("#image").src = url;
     })
     .catch(console.error);
@@ -124,7 +125,8 @@ function uploadImage() {
   task
     .then(snapshot => snapshot.ref.getDownloadURL())
     .then(url => {
-      console.log(url);alert("uploaded");
+      // console.log(url);
+      alert("uploaded");
       // document.querySelector("#image").src = url;
     })
     .catch(console.error);
@@ -140,7 +142,8 @@ function uploadImage2() {
   task
     .then(snapshot => snapshot.ref.getDownloadURL())
     .then(url => {
-      console.log(url);alert("uploaded");
+      // console.log(url);
+      alert("uploaded");
       // document.querySelector("#image").src = url;
     })
     .catch(console.error);
@@ -156,7 +159,8 @@ function uploadImage3() {
   task
     .then(snapshot => snapshot.ref.getDownloadURL())
     .then(url => {
-      console.log(url);alert("uploaded");
+      // console.log(url);
+      alert("uploaded");
       // document.querySelector("#image").src = url;
     })
     .catch(console.error);
