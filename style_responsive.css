@@ -5,7 +5,14 @@
     position: absolute;
     top: 349px;
     z-index: 2;
-    left: 185px;
+    left: 104px;
+  }
+  .event-button2{
+    max-width: 16%;
+    position: absolute;
+    top: 353px;
+    z-index: 2;
+    left: 270px;
   }
 }
 @media only screen and (max-width: 960px) {
@@ -40,7 +47,14 @@
     position: absolute;
     top: 327px;
     z-index: 2;
-    left: 190px;
+    left: 132px;
+}
+.event-button2{
+  max-width: 13%;
+    position: absolute;
+    top: 331px;
+    z-index: 2;
+    left: 262px;
 }
   
   }
@@ -121,44 +135,92 @@
   
       }
   }
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-width: 640px) {
     .event-button {
       max-width: 14%;
-position: absolute;
-top: 69px;
-top: 186px;
-z-index: 2;
-left: 106px;
+    position: absolute;
+    top: 212px;
+    z-index: 2;
+    left: 86px;
+    }
+    .event-button2 {
+      max-width: 14%;
+    position: absolute;
+    top: 212px;
+    z-index: 2;
+    left: 86px;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .event-button {
+      max-width: 15%;
+    position: absolute;
+    top: 69px;
+    top: 186px;
+    z-index: 2;
+    left: 57px;
+    }
+    .event-button2 {
+      max-width: 14%;
+    position: absolute;
+    top: 69px;
+    top: 187px;
+    z-index: 2;
+    left: 135px;
     }
   }
   @media only screen and (max-width: 414px) {
     .event-button {
-      max-width: 16%;
+      max-width: 20%;
       position: absolute;
       top: 69px;
       top: 144px;
       z-index: 2;
-      left: 78px;
+      left: 33px;
+    }
+    .event-button2 {
+      max-width: 19%;
+      position: absolute;
+      top: 69px;
+      top: 145px;
+      z-index: 2;
+      left: 110px;
     }
   }
   @media only screen and (max-width: 375px) {
     .event-button {
-      max-width: 16%;
-      position: absolute;
-      top: 69px;
-      top: 127px;
-      z-index: 2;
-      left: 72px;
+      max-width: 20%;
+    position: absolute;
+    /* top: 69px; */
+    top: 127px;
+    z-index: 2;
+    left: 31px;
+    }
+    .event-button2 {
+      max-width: 19%;
+    position: absolute;
+    /* top: 69px; */
+    top: 129px;
+    z-index: 2;
+    left: 104px;
     }
   }
       @media only screen and (max-width: 360px) {
         .event-button {
-          max-width: 18%;
+          max-width: 20%;
           position: absolute;
-          top: 69px;
+          /* top: 69px; */
           top: 122px;
           z-index: 2;
-          left: 63px;
+          left: 28px;
+        }
+        .event-button2 {
+          max-width: 19%;
+          position: absolute;
+          /* top: 69px; */
+          top: 123px;
+          z-index: 2;
+          left: 96px;
         }
       }
      
