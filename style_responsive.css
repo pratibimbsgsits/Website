@@ -1,7 +1,11 @@
 @media only screen and (max-width: 1024px)
 {
   .event-button{
-    display:none;
+    max-width: 17%;
+    position: absolute;
+    top: 349px;
+    z-index: 2;
+    left: 185px;
   }
 }
 @media only screen and (max-width: 960px) {
@@ -31,6 +35,13 @@
     .left{
   padding:7% 9% 5% 5%;
 }
+.event-button{
+  max-width: 14%;
+    position: absolute;
+    top: 327px;
+    z-index: 2;
+    left: 190px;
+}
   
   }
 
@@ -39,7 +50,7 @@
       padding-right: 1em;
     }
   }
-
+  
   @media only screen and (max-width: 960px) {
     .discover,.recent-events,.foru,.locate{
       padding-left:0;
@@ -54,16 +65,16 @@
    .footer_logo{
      margin-left: auto;
      margin-right: auto;
-   }
+    }
     .locate p,.locate div{
       margin-left: auto;
      margin-right: auto;
      padding-left:0;
-    padding-bottom: 10px;
+     padding-bottom: 10px;
     }
 .recent-events ul,.foru ul{
     margin-bottom: 0;
-    }
+  }
   .discover,.recent-events,.foru{
     margin-left:0;
     margin-right: 0;
@@ -91,23 +102,63 @@
       padding:50%;
     }
       
-      .meraki-main-image,.event-main-image{
+    .meraki-main-image,.event-main-image{
 /*   display:none; */
 }
 
-.meraki-button,.event-button{
+.meraki-button{
   display:none;
 }
 
 .meraki-mobile,.event-mobile{
   display:inline;
-    max-width:100%;
+  max-width:100%;
 }
-      
+
       .sponsor-image img{
+        
+        margin-top: 150px;
   
-  margin-top: 150px;
-  
-}
+      }
   }
- 
+  @media only screen and (max-width: 540px) {
+    .event-button {
+      max-width: 14%;
+position: absolute;
+top: 69px;
+top: 186px;
+z-index: 2;
+left: 106px;
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    .event-button {
+      max-width: 16%;
+      position: absolute;
+      top: 69px;
+      top: 144px;
+      z-index: 2;
+      left: 78px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .event-button {
+      max-width: 16%;
+      position: absolute;
+      top: 69px;
+      top: 127px;
+      z-index: 2;
+      left: 72px;
+    }
+  }
+      @media only screen and (max-width: 360px) {
+        .event-button {
+          max-width: 18%;
+          position: absolute;
+          top: 69px;
+          top: 122px;
+          z-index: 2;
+          left: 63px;
+        }
+      }
+     
