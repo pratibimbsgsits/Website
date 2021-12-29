@@ -58,10 +58,10 @@ margin-top:30px;
     height: 200px;
 }
 .part1_img{
-    padding-bottom: 25px;
+    margin-bottom: 25px;
     height: 125px;
-    padding-left: 80px;
-    /* padding-right: 25px; */
+   
+    
 }
 .kalopsia_samples{
     text-align: center;
