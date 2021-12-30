@@ -1,5 +1,7 @@
 // import 'firebase/storage';
 
+// import 'firebase/storage';
+
 function myFunction(){
   document.querySelector(".box1").style.display = "block";
 }
@@ -46,11 +48,13 @@ e.preventDefault();
 var name=document.getElementById("name").value;
 var contact=document.getElementById("contact").value;
 var whatsappNumber=document.getElementById("whatsappNumber").value;
+var email=document.getElementById("email").value;
 var gsStudent =Array.from(document.getElementsByClassName("memberOfPratibimb")).find(memberOfPratibimbInput=> memberOfPratibimbInput.checked).value;
 var memberOfPratibimb =Array.from(document.getElementsByClassName("memberOfPratibimb")).find(memberOfPratibimbInput=> memberOfPratibimbInput.checked).value;
 var memberId =document.getElementById("memberId").value;
 var branch =document.getElementById("branch").value;
 var enrolNo =document.getElementById("enrolNo").value;
+var instituteName =document.getElementById("instituteName").value;
 var wsAttending =Array.from(document.getElementsByClassName("wsAttending")).find(wsAttendingInput=> wsAttendingInput.checked).value;
 var offlinePayment =Array.from(document.getElementsByClassName("offlinePayment")).find(offlinePaymentInput=> offlinePaymentInput.checked).value;
 var onlinePayment =Array.from(document.getElementsByClassName("onlinePayment")).find(onlinePaymentInput=> onlinePaymentInput.checked).value;
@@ -58,33 +62,34 @@ var paymentOption =Array.from(document.getElementsByClassName("paymentOption")).
 
 
 
-//console.log(name, contact,whatsappNumber,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,wsAttending,offlinePayment,onlinePayment,paymentOption);
-   saveMessages(name, contact,whatsappNumber,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,wsAttending,offlinePayment,onlinePayment,paymentOption);
+//console.log(name, contact,whatsappNumber,email,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,wsAttending,offlinePayment,onlinePayment,paymentOption);
+   saveMessages(name, contact,whatsappNumber,email,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,instituteName,wsAttending,offlinePayment,onlinePayment,paymentOption);
 
 //   //   enable alert
-//   document.querySelector(".alert1").style.display = "block";
-
+  // document.querySelector(".alert1").style.display = "block";
+alert("You have successfully registered for Kalopsia!")
    //   remove the alert
 //    setTimeout(() => {
 //     document.querySelector(".alert1").style.display = "none";
 //    }, 3000);
- alert("You have successfully registered for Kalopsia!");
-//   //   reset the form
+// //   //   reset the form
 document.getElementById("Registration-Kalopsia").reset();
 
 }
-const saveMessages = (name, contact,whatsappNumber,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,wsAttending,offlinePayment,onlinePayment,paymentOption) => {
+const saveMessages = (name, contact,whatsappNumber,email,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,instituteName,wsAttending,offlinePayment,onlinePayment,paymentOption) => {
   var newregForm = regFormDB.push();
 
   newregForm.set({
     name: name,
     contact:contact,
     whatsappNumber:whatsappNumber,
+    email:email,
     gsStudent:gsStudent,
     memberOfPratibimb:memberOfPratibimb,
     memberId:memberId,
     branch:branch,
     enrolNo:enrolNo,
+    instituteName:instituteName,
     wsAttending:wsAttending,
     offlinePayment:offlinePayment,
     onlinePayment: onlinePayment,
