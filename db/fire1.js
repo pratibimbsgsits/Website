@@ -1,67 +1,62 @@
-// import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
-
 const firebaseConfig = {
 
-  apiKey: "AIzaSyADjaHMwnjBNUDW1sTSaXQ0ySmkn4xnamM",
+  apiKey: "AIzaSyA73INgkZCHjgsHfEEs6TUleBaf-qP-2mI",
 
-  authDomain: "membership-1e742.firebaseapp.com",
+  authDomain: "registration-kalopsia.firebaseapp.com",
 
-  databaseURL: "https://membership-1e742-default-rtdb.firebaseio.com",
+  databaseURL: "https://registration-kalopsia-default-rtdb.firebaseio.com",
 
-  projectId: "membership-1e742",
+  projectId: "registration-kalopsia",
 
-  storageBucket: "membership-1e742.appspot.com",
+  storageBucket: "registration-kalopsia.appspot.com",
 
-  messagingSenderId: "373055091171",
+  messagingSenderId: "1076831617395",
 
-  appId: "1:373055091171:web:1908dc236208f5f88bf0d6"
+  appId: "1:1076831617395:web:939d57bb9a520f00e50506"
 
 };
-
+  
+ //Initialize Firebase 
 firebase.initializeApp(firebaseConfig);
+var firestore = firebase.firestore()
 
-var membershipFormDB=firebase.database().ref('membershipForm');
-
+//Variable to access database collection
+const db = firestore.collection("membershipForm")
 document.getElementById('membershipForm').addEventListener("submit",submitForm);
 
 function submitForm(e){
-  e.preventDefault();
-
-  var name=document.getElementById("name").value;
-  var branch=document.getElementById("branch").value;
-  var email=document.getElementById("email").value;
-  var birthdate =document.getElementById("birthdate").value;
-  var contact =document.getElementById("contact").value;
-  var payment =document.getElementById("payment").value;
-
-// console.log(name, branch,email,birthdate,contact,payment);
-  saveMessages(name, branch,email,birthdate,contact,payment);
-
-  //   enable alert
+    e.preventDefault();
+  
+    let name=document.getElementById("name").value;
+    let branch=document.getElementById("branch").value;
+    let email=document.getElementById("email").value;
+    let birthdate =document.getElementById("birthdate").value;
+    let contact =document.getElementById("contact").value;
+    let payment =document.getElementById("payment").value;
+    
+  
+//    console.log(name, branch,email,birthdate,contact,payment);
+    saveMessages(name, branch,email,birthdate,contact,payment);
+    //   enable alert
   document.querySelector(".alert1").style.display = "block";
 
-   //   remove the alert
-   setTimeout(() => {
-    document.querySelector(".alert1").style.display = "none";
-   }, 3000);
-  //   reset the form
-  document.getElementById("membershipForm").reset();
-
-}
-const saveMessages = (name, branch, email, birthdate,contact,payment) => {
-  var newmembershipForm = membershipFormDB.push();
-
-  newmembershipForm.set({
-    name: name,
-    branch:branch,
-    email: email,
-    birthdate:birthdate,
-    contact:contact,
-    payment:payment
-  });
-};
-const getMessageVal=(id)=>{
-  return document.getElementById(id).value;
-}
-
-//-----------------------------------------------------------------------------------------------------------------------------------------
+  //   remove the alert
+  setTimeout(() => {
+   document.querySelector(".alert1").style.display = "none";
+  }, 2000);
+ //   reset the form
+ document.getElementById("membershipForm").reset();
+  
+  }
+  const saveMessages = (name, branch,email,birthdate,contact,payment) => {  
+    db.doc().set({
+          name: name,
+          branch:branch,
+          email: email,
+          birthdate:birthdate,
+          contact:contact,
+          payment:payment
+    });
+  };
+  const getMessageVal=(id)=>{
+    return document.getElementById(id).value;}
