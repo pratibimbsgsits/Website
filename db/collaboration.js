@@ -1,20 +1,20 @@
 const firebaseConfig = {
 
-    apiKey: "AIzaSyADjaHMwnjBNUDW1sTSaXQ0ySmkn4xnamM",
-  
-    authDomain: "membership-1e742.firebaseapp.com",
-  
-    databaseURL: "https://membership-1e742-default-rtdb.firebaseio.com",
-  
-    projectId: "membership-1e742",
-  
-    storageBucket: "membership-1e742.appspot.com",
-  
-    messagingSenderId: "373055091171",
-  
-    appId: "1:373055091171:web:1908dc236208f5f88bf0d6"
-  
-  };
+  apiKey: "AIzaSyA73INgkZCHjgsHfEEs6TUleBaf-qP-2mI",
+
+  authDomain: "registration-kalopsia.firebaseapp.com",
+
+  databaseURL: "https://registration-kalopsia-default-rtdb.firebaseio.com",
+
+  projectId: "registration-kalopsia",
+
+  storageBucket: "registration-kalopsia.appspot.com",
+
+  messagingSenderId: "1076831617395",
+
+  appId: "1:1076831617395:web:939d57bb9a520f00e50506"
+
+};
   
  //Initialize Firebase 
 firebase.initializeApp(firebaseConfig);
