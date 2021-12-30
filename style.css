@@ -681,11 +681,18 @@ color: #1FE0BD;
 }
 
 .event-button{
-  max-width:14%;
+  max-width:15%;
   position:absolute;
   top: 460px;
   z-index:2;
-  left: 262px;
+  left: 173px;
+}
+.event-button2{
+  max-width: 14%;
+    position: absolute;
+    top: 465px;
+    z-index: 2;
+    left: 361px;
 }
 
 .meraki-mobile,.event-mobile{
