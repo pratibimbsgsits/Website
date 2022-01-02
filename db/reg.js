@@ -49,7 +49,7 @@ var name=document.getElementById("name").value;
 var contact=document.getElementById("contact").value;
 var whatsappNumber=document.getElementById("whatsappNumber").value;
 var email=document.getElementById("email").value;
-var gsStudent =Array.from(document.getElementsByClassName("memberOfPratibimb")).find(memberOfPratibimbInput=> memberOfPratibimbInput.checked).value;
+var gsStudent =Array.from(document.getElementsByClassName("gsStudent")).find(memberOfPratibimbInput=> memberOfPratibimbInput.checked).value;
 var memberOfPratibimb =Array.from(document.getElementsByClassName("memberOfPratibimb")).find(memberOfPratibimbInput=> memberOfPratibimbInput.checked).value;
 var memberId =document.getElementById("memberId").value;
 var branch =document.getElementById("branch").value;
