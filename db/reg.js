@@ -56,14 +56,14 @@ var branch =document.getElementById("branch").value;
 var enrolNo =document.getElementById("enrolNo").value;
 var instituteName =document.getElementById("instituteName").value;
 var wsAttending =Array.from(document.getElementsByClassName("wsAttending")).find(wsAttendingInput=> wsAttendingInput.checked).value;
-var offlinePayment =Array.from(document.getElementsByClassName("offlinePayment")).find(offlinePaymentInput=> offlinePaymentInput.checked).value;
+//var offlinePayment =Array.from(document.getElementsByClassName("offlinePayment")).find(offlinePaymentInput=> offlinePaymentInput.checked).value;
 var onlinePayment =Array.from(document.getElementsByClassName("onlinePayment")).find(onlinePaymentInput=> onlinePaymentInput.checked).value;
 var paymentOption =Array.from(document.getElementsByClassName("paymentOption")).find(paymentOptionInput=> paymentOptionInput.checked).value;
 
 
 
-//console.log(name, contact,whatsappNumber,email,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,wsAttending,offlinePayment,onlinePayment,paymentOption);
-   saveMessages(name, contact,whatsappNumber,email,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,instituteName,wsAttending,offlinePayment,onlinePayment,paymentOption);
+//console.log(name, contact,whatsappNumber,email,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,wsAttending,onlinePayment,paymentOption);
+   saveMessages(name, contact,whatsappNumber,email,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,instituteName,wsAttending,onlinePayment,paymentOption);
 
 //   //   enable alert
   // document.querySelector(".alert1").style.display = "block";
@@ -76,7 +76,7 @@ alert("You have successfully registered for Kalopsia!")
 document.getElementById("Registration-Kalopsia").reset();
 
 }
-const saveMessages = (name, contact,whatsappNumber,email,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,instituteName,wsAttending,offlinePayment,onlinePayment,paymentOption) => {
+const saveMessages = (name, contact,whatsappNumber,email,gsStudent,memberOfPratibimb,memberId,branch,enrolNo,instituteName,wsAttending,onlinePayment,paymentOption) => {
   var newregForm = regFormDB.push();
 
   newregForm.set({
@@ -91,7 +91,7 @@ const saveMessages = (name, contact,whatsappNumber,email,gsStudent,memberOfPrati
     enrolNo:enrolNo,
     instituteName:instituteName,
     wsAttending:wsAttending,
-    offlinePayment:offlinePayment,
+//     offlinePayment:offlinePayment,
     onlinePayment: onlinePayment,
     paymentOption:paymentOption
   });
