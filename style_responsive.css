@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1024px)
+/* @media only screen and (max-width: 1024px)
 {
   .event-button{
     max-width: 17%;
@@ -14,7 +14,7 @@
     z-index: 2;
     left: 270px;
   }
-}
+} */
 @media only screen and (max-width: 960px) {
     .column1,.column,.column2,.column4,.column3{
       width: 100%;
@@ -42,7 +42,7 @@
     .left{
   padding:7% 9% 5% 5%;
 }
-.event-button{
+/* .event-button{
   max-width: 14%;
     position: absolute;
     top: 327px;
@@ -55,9 +55,9 @@
     top: 331px;
     z-index: 2;
     left: 262px;
-}
+} */
   
-  }
+  
 
   @media only screen and (max-width: 960px) {
     .sm-icons .nav-item {
@@ -116,9 +116,8 @@
       padding:50%;
     }
       
-    .meraki-main-image,.event-main-image{
+    /* .meraki-main-image,.event-main-image{
 /*   display:none; */
-}
 
 .meraki-button{
   display:none;
@@ -136,91 +135,136 @@
       }
   }
   @media only screen and (max-width: 640px) {
-    .event-button {
+    /* .event-button {
       max-width: 14%;
-    position: absolute;
-    top: 212px;
-    z-index: 2;
-    left: 86px;
-    }
-    .event-button2 {
-      max-width: 14%;
-    position: absolute;
-    top: 212px;
-    z-index: 2;
-    left: 86px;
-    }
+      position: absolute;
+      top: 132px;
+      z-index: 2;
+      left: 120px;
+    } */
+
+/* .event-button2 {
+  max-width: 14%;
+  position: absolute;
+  top: 132px;
+  z-index: 2;
+  left: 200px
+} */
+.event-button3{
+  max-width: 35%;
+  position: absolute;
+  top: -20px;
+  z-index: 2;
+  left: 90px;
+
+}
   }
-  @media only screen and (max-width: 540px) {
-    .event-button {
+  @media only screen and (max-width: 566px) {
+    /* .event-button {
       max-width: 15%;
-    position: absolute;
-    top: 69px;
-    top: 186px;
-    z-index: 2;
-    left: 57px;
+      position: absolute;
+      top: 69px;
+      top: 122px;
+      z-index: 2;
+      left: 87px;
     }
     .event-button2 {
       max-width: 14%;
     position: absolute;
     top: 69px;
-    top: 187px;
+    top: 122px;
     z-index: 2;
-    left: 135px;
+    left: 165px;
+    } */
+    .event-button3{
+      max-width: 35%;
+    position: absolute;
+    top: -20px;
+    z-index: 2;
+    left: 70px;
     }
   }
-  @media only screen and (max-width: 414px) {
-    .event-button {
-      max-width: 20%;
+  @media only screen and (max-width: 526px) {
+    /* .event-button {
+      max-width: 15%;
       position: absolute;
       top: 69px;
-      top: 144px;
+      top: 110px;
       z-index: 2;
-      left: 33px;
-    }
-    .event-button2 {
-      max-width: 19%;
+      left: 90px;
+    } */
+    /* .event-button2 {
+      max-width: 15%;
       position: absolute;
       top: 69px;
-      top: 145px;
+      top: 110px;
       z-index: 2;
-      left: 110px;
-    }
+      left: 160px
+    } */
   }
-  @media only screen and (max-width: 375px) {
-    .event-button {
-      max-width: 20%;
-    position: absolute;
-    /* top: 69px; */
-    top: 127px;
-    z-index: 2;
-    left: 31px;
-    }
-    .event-button2 {
-      max-width: 19%;
-    position: absolute;
-    /* top: 69px; */
-    top: 129px;
-    z-index: 2;
-    left: 104px;
-    }
+  @media only screen and (max-width: 478px) {
+    /* .event-button {
+      max-width: 15%;
+      position: absolute;
+      /* top: 69px; */
+      /* top: 117px;
+      z-index: 2;
+      left: 60px;
+  } */ 
+    
+    /* .event-button2 {
+      max-width: 15%;
+      position: absolute;
+      /* top: 69px; */
+      /* top: 118px;
+      z-index: 2;
+      left: 117px
+    } */ */
+    .event-button3 {
+      max-width: 35%;
+      position: absolute;
+      top: 10px;
+      z-index: 2;
+      left: 45px;
   }
-      @media only screen and (max-width: 360px) {
-        .event-button {
-          max-width: 20%;
+  }
+     @media only screen and (max-width: 400px) {
+        /* .event-button {
+          max-width: 15%;
           position: absolute;
-          /* top: 69px; */
-          top: 122px;
+          top: 69px;
+          top: 105px;
           z-index: 2;
-          left: 28px;
+          left: 58px; 
         }
         .event-button2 {
-          max-width: 19%;
+          max-width: 15%;
+          position: absolute;
+          top: 69px;
+          top: 105px;
+          z-index: 2;
+          left: 109px;
+        }
+        */
+      }
+      @media only screen and (max-width: 350px) {
+        /* .event-button {
+          max-width: 15%;
           position: absolute;
           /* top: 69px; */
-          top: 123px;
+          /* top: 85px;
           z-index: 2;
-          left: 96px;
-        }
+          left: 58px; 
+        } */
+        /* .event-button2 {
+          max-width: 14.4%;
+          position: absolute;
+          /* top: 69px; */
+          /* top: 86px;
+          z-index: 2;
+          left: 104px;
+        } */
+       
       }
      
+    }
