@@ -680,13 +680,14 @@ color: #1FE0BD;
   right: 100px;
 }
 
-/* .event-button{
-  max-width:15%;
+ .event-button{
+  max-width:14%;
   position:absolute;
-  top: 460px;
+  top: 260px;
   z-index:2;
-  left: 173px;
+  left: 257px;
 }
+/*
 .event-button2{
   max-width: 14%;
     position: absolute;

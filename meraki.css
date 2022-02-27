@@ -8,13 +8,9 @@
     width: 50%;
 }
 .meraki_content{
-    padding-left:3.5rem;
-    padding-right: 3.5rem;
+    padding-left:6rem;
+    padding-right: 6rem;
     padding-bottom:8%;
-}
-.meraki_content h1{
-    margin-top: 50px;
-    margin-bottom: 40px;
 }
 .hindi_font{
     font-family: 'Noto Sans', sans-serif;
@@ -80,10 +76,39 @@ margin-top:30px;
     background-position: center;    
 }
 
-.meraki_image{
-    background: url(img/Kalopsia Poster (1) 1.png) no-repeat;
-    background-image: url("img/Kalopsia Poster (1) 1.png");
+.ig{
+    /*background: url("img/Rectangle\ 4.png") no-repeat;*/
+    background-color:#C6A89E;
+    background-image: url("img/B3\ 1.png");
+    background-size: 400px;
   background-size: 100% 100%;
+}
+.ig1{
+    background-color:#EA9E4F;
+    /*background-image: url("img/HATIX\ LOGO\ 1.png");*/
+    background-size: 400px;
+  background-size: 100% 100%;
+}
+.ig2{
+    background-color:#c9a4ca;
+    /*background-image: url("img/CH\ EDGE\ MAKERS\ LOGO\ 1.png");*/
+    background-size: 400px;
+  background-size: 100% 100%; 
+}
+.ig3{
+    /*background-image: url("img/MY\ FM\ LOGO\ 1.png");*/
+    height:500px;
+  background-size: 100% 100%; 
+}
+.ig4{
+    background-image: url("img/DA\ IMPRINTS\ LOGO\ 1.png");
+  height:500px;
+  background-size: 100% 100%; 
+}
+.ig5{
+    background-image: url("img/graphathon-banner.jpeg");
+    height:600px;
+    background-size: 100% 100%;   
 }
 .rules1{
     color:#ffffff;
@@ -131,7 +156,7 @@ font-weight: bold;
         width: 100%;
         height: 550px;}
     .meraki_content, .meraki_image{
-        height: 700px;
+        height: 500px;
     }
     .teaser{
         height: 500px;}
@@ -166,7 +191,8 @@ font-weight: bold;
         .rules1, .rules2{
             height: auto;}
     .meraki_content{
-        height:750px;
+        width:100%;
+        height:800px;
     }
     .registor img{
         margin:auto;
@@ -176,12 +202,13 @@ font-weight: bold;
 @media screen and (max-width: 500px){
     .teaser video{
         height: 200px;}
+ 
         .teaser{
             height: 320px;}
             .rules1, .rules2{
                 /* height: 700px;} */}
         .meraki_content{
-            height:625px;}
+            height:600px;}
             .meraki_content{
                 padding-left:1.5rem;
                 padding-right: 1.5rem;
@@ -218,13 +245,10 @@ padding: 0.5em;}
             margin:auto;
             
         }
-        .meraki_content{
-            /* font-size: small;
-            height: 00px; */
-        }
+       
         @media screen and (max-width: 400px){
             .meraki_content{
-                height:750px;
+                height:760px;
             }
     
                 }
