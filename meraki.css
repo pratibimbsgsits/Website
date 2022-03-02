@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.rules2{
+    margin-top:100px;
+    background-color: #E5E5E5;
+}
+.fm_ev{
+    margin-top:95px;
+    margin-left:85px;
+}
 .meraki_image{
     width: 100%;
     /* height: 700px; */
     padding: 2em 2em;
+}
+.img_graf{
+    height:320px;
 }
 .meraki_image, .meraki_content{
     width: 50%;
@@ -75,7 +86,6 @@ margin-top:30px;
     background-repeat:no-repeat;
     background-position: center;    
 }
-
 .ig{
     /*background: url("img/Rectangle\ 4.png") no-repeat;*/
     background-color:#C6A89E;
@@ -200,13 +210,20 @@ font-weight: bold;
     }
 }
 @media screen and (max-width: 500px){
+   .rules2{
+       margin-top:0px;
+   }
+    .img_graf{
+        height: 275px;
+    }
+    .fm_ev{
+        margin-left:60px;
+    }
     .teaser video{
         height: 200px;}
  
         .teaser{
             height: 320px;}
-            .rules1, .rules2{
-                /* height: 700px;} */}
         .meraki_content{
             height:600px;}
             .meraki_content{
@@ -225,6 +242,20 @@ font-weight: bold;
             }
 }
 @media screen and (max-width: 410px){
+    .ig3{
+        margin-top:70px;
+    }
+    .ig4{
+        padding:0px;
+    }
+    .fm_ev{
+        margin-top:20px;
+        margin-left: 27px;
+    }
+
+    .img_graf{
+        height: 235px;
+    }
 .teaser video{
     height: 160px;
 padding: 0.5em;}
@@ -250,5 +281,18 @@ padding: 0.5em;}
             .meraki_content{
                 height:760px;
             }
+            .fm_ev{
+                margin-left:7px;
+            }
+
     
                 }
+        @media screen and (max-width: 355px){
+            .img_graf{
+                height: 210px;
+            }
+            .fm_ev{
+                margin-left: 8px;
+            }
+            
+            }
