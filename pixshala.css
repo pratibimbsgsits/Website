@@ -1,9 +1,9 @@
-#row_pixshala {
+/* #row_pixshala {
     display: flex;
     height: 700px;
     flex-direction: row;
 }
-
+ */
 .navbar{
     
         position: relative;
@@ -56,7 +56,7 @@
     flex-direction: row;
   }
 
-#image_pixshala{
+/* #image_pixshala{
  position: absolute;
  right: 0px;
  left: 50%;
@@ -89,8 +89,8 @@
 }
 
 #Date_pixshala{
-    position: absolute;
-    width: 450px;
+    position: absolute; */
+/*     width: 450px;
     height: 74px;
     left: 113px;
     top: 530px;
@@ -122,8 +122,8 @@
 
 #text_rules{
     width: 760px;
-    padding-top: 70px;
-}
+    padding-top: 70px; */
+/* }
 
 
 #image_rules{
@@ -138,4 +138,196 @@
     padding-right: 40px;
     line-height: 25px;
     letter-spacing: 0.01rem;
+} */
+
+
+html,body{
+  font-family: poppins,sans-serif;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+  width: 100%;
+    height: 100%;
 }
+
+.col {
+  float: left;
+  height: 600px;
+}
+
+.col{
+  font-weight: 600;
+}
+
+.eve-right{
+  width: 50%;
+  /* padding:8% 9% 5% 8%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .eve-left {
+  width: 50%;
+  background: url(img/89069128_863250980814368_1061437620255162424_n\ 2.png);
+  background-size: 100% 100%;
+} */
+
+/* .eve-left img{
+  width:100%;
+  height:466px;
+} */
+
+ .eve-right{
+   background-color: black;
+   color: #FFFFFF;
+   padding: 0;
+ }
+.heading{
+  width: 60%;
+  padding-right: 26%;
+/* font-family: Ralway;
+font-style: normal;
+font-weight: bold;
+font-size: 33.9px;
+color: #000000; */
+}
+.para{
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+color: white;
+padding: 0.5% 10%;
+text-align: justify;
+}
+.dates{
+font-family:'Mulish', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+color: white;
+text-align: justify;
+padding: 0.5%;
+padding-left: 10%;
+}
+.heading1{
+font-family: Ralway;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+color: black;
+display: flex;
+text-align: center;
+justify-content: center;
+margin-bottom: 0px;
+    margin-top: 25px;
+}
+.para1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* padding-top: 2%; */
+  color: #000000;
+
+}
+.dates1{
+font-family:'Mulish', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+color: #FFFFFF;
+}
+
+.eve-left1{
+width: 50%;
+padding:5% 9% 5% 5%;
+background-color: white;
+color: #000000;
+padding: 0%;
+float: right;
+}
+
+/* .eve-right1 {
+width: 50%;
+background: url(img/DSC_5904.JPG);
+background-size: 100% 100%;
+} */
+/* .eve-right2 {
+width: 50%;
+background: url(img/66178697_922401408097690_5786587258798000397_n\ 1.png);
+background-size: 100% 100%;
+} */
+.eve-right3{
+width: 50%;
+background: url(img/bird_2.png);
+background-size: 100% 100%;
+float: left;
+}
+/* .eve-right4{
+width: 50%;
+background: url(img/PSX_20200412_201520-01.jpeg);
+background-size: 100% 100%;
+} */
+/* .eve-left2{
+width: 50%;
+  background: url(img/IMG_20190827_164821\ 1.png);
+  background-size: 100% 100%;
+} */
+
+/* .eve-left3{
+width: 50%;
+  background: url(img/28154674_2014453665480012_1463851706335887360_n\ 1.png);
+  background-size: 100% 100%;
+} */
+.eve-left4{
+width: 50%;
+  background: url(img/pixshala.png);
+  background-size: 100% 100%;
+  float: right;
+}
+/* .eve-left5{
+width: 50%;
+  background: url(img/WhatsApp\ Image\ 2021-06-03\ at\ 6.04.28\ PM\ \(1\).jpeg);
+  background-size: 100% 100%;
+} */
+/* .eve-right1 img{
+width:100%;
+height:466px;
+} */
+@media only screen and (max-width: 540px){
+.eve-row{
+    padding-left:0;
+    padding-top: 0;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-right:0;
+}
+
+.heading1{
+  font-size: 15px;
+}
+.para1{
+    font-size: 8px;
+}
+.col{
+    width:100%;
+    height:480px;
+}
+.graf{
+  height:525px;
+}
+
+}
+
+@media only screen and (max-width: 375px){
+  .graf{
+    height:550px;
+  }
+}
+
