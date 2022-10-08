@@ -154,7 +154,7 @@
 .event-button3{
   max-width: 35%;
   position: absolute;
-  top: -20px;
+  top: auto;
   z-index: 2;
   left: 90px;
 
