@@ -18,6 +18,14 @@ font-weight: 600;
 margin-left:1rem;
 }
 
+.event-button{
+  max-width:14%;
+  position:absolute;
+  top: 280px;
+  z-index:2;
+  left: 257px;
+}
+
 .links{
 color: #f2f2f2;
 }
