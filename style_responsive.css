@@ -206,12 +206,12 @@
   }
   @media only screen and (max-width: 478px) {
    .event-button {
-      max-width: 15%;
+      max-width: 30%;
       position: absolute;
       /* top: 69px; */
        top: 117px;
       z-index: 2;
-      left: 95px;
+      left: 40px;
   } 
     
     /* .event-button2 {
@@ -223,11 +223,11 @@
       left: 117px
     } */ 
     .event-button3 {
-      max-width: 35%;
+      max-width: 45%;
       position: absolute;
       top: 10px;
       z-index: 2;
-      left: 45px;
+      left: 0px;
   }
   }
      @media only screen and (max-width: 400px) {
