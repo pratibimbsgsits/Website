@@ -234,9 +234,9 @@
         .event-button {
           max-width: 15%;
           position: absolute;
-          top: 95px;
+          top: 105px;
           z-index: 2;
-          left: 90px; 
+          left: 60px; 
         }
         /*.event-button2 {
           max-width: 15%;
