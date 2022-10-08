@@ -573,15 +573,15 @@ height:466px;
       left: 160px
     } */
   }
-  @media only screen and (max-width: 478px) {
+/*   @media only screen and (max-width: 478px) {
    .event-button {
       max-width: 15%;
       position: absolute;
-      /* top: 69px; */
-       top: 117px;
+       top: 69px; 
+        top: 117px;
       z-index: 2;
       left: 95px;
-  } 
+  }   */
     
     /* .event-button2 {
       max-width: 15%;
