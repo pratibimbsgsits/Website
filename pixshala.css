@@ -639,3 +639,25 @@ height:466px;
      
     }
 
+/* sponsor */
+.sponsor{
+  font-family: Ralway;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+text-align: center;
+background-color:darkgrey;
+
+
+}
+
+.sps{
+  width: 25%;
+}
+
+.sps1
+{
+  width: 10%;
+}
+/* sponsor */
+
