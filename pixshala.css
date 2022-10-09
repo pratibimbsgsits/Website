@@ -384,6 +384,29 @@ height:466px;
     left: 270px;
   }
 } */
+
+/* sponsor */
+.sponsor{
+  font-family: Ralway;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+text-align: center;
+background-color:darkgrey;
+
+
+}
+
+.sps{
+  width: 25%;
+}
+
+.sps1
+{
+  width: 10%;
+}
+/* sponsor */
+
 @media only screen and (max-width: 960px) {
     .column1,.column,.column2,.column4,.column3{
       width: 100%;
@@ -639,25 +662,5 @@ height:466px;
      
     }
 
-/* sponsor */
-.sponsor{
-  font-family: Ralway;
-font-style: normal;
-font-weight: bold;
-font-size: 34px;
-text-align: center;
-background-color:darkgrey;
 
-
-}
-
-.sps{
-  width: 25%;
-}
-
-.sps1
-{
-  width: 10%;
-}
-/* sponsor */
 
